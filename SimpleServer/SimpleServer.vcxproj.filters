@@ -13,10 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="connection_component">
+      <UniqueIdentifier>{ad4dc739-c7fb-4de5-9117-d44c4321822e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SimpleServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>connection_component</Filter>
+    </ClInclude>
+    <ClInclude Include="net_common.h">
+      <Filter>connection_component</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>connection_component</Filter>
+    </ClInclude>
+    <ClInclude Include="connection.h">
+      <Filter>connection_component</Filter>
+    </ClInclude>
+    <ClInclude Include="async_components.h">
+      <Filter>connection_component</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_safe_queue.h">
+      <Filter>connection_component</Filter>
+    </ClInclude>
+    <ClInclude Include="async_components_utils.h">
+      <Filter>connection_component</Filter>
+    </ClInclude>
+    <ClInclude Include="connection_interfaces.h">
+      <Filter>connection_component</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
